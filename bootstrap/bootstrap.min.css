@@ -33,6 +33,19 @@ html {
     display: inline-block;
     vertical-align: baseline;
   }
+  body .red-text {
+    color: green !important;          /* Green color */
+    font-size: small !important;      /* Small font size */
+    font-weight: normal !important;   /* Regular weight */
+    font-style: normal !important;    /* Regular text (non-italic) */
+  }
+  
+  .font-weight-bold{
+    color: green !important;          /* Green color */
+    font-size: small !important;      /* Small font size */
+    font-weight: normal !important;   /* Regular weight */
+    font-style: normal !important; 
+  }
   audio:not([controls]) {
     display: none;
     height: 0;
